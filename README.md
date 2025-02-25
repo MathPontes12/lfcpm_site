@@ -19,8 +19,6 @@ Site em HTML com estilização em CSS desenvolvido por mim.
 <div align = "center">
       <h2 align="center"> Link Vercel para o site. </h2>
       <br>
-      <br>
-      <br>
       https://lfcpm-site.vercel.app/researchLines.html
     
 </div>
