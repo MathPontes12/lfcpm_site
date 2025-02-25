@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+:root {
+    --font-color: #31511E;
+    --background-color:#A0D683;
+    --font-size: 1.2rem;
+}
+
+
+.header{
+    background-image: url(/assets/backgroundImage.png);
+    background-position: right;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-color: var(--background-color);
+}
+
+.header__section {
+    display: flex;
+    padding: 1% 0% 2% 0%;    
+}
+
+.header__section__logo {
+    width: 10rem;
+    padding-left: 5%;
+    
+}
+
+.header__section__title {
+    text-align: center;
+    text-shadow: 0.25rem 0.25rem 0rem white;;
+    flex-grow: 1;
+    padding: 1% 14% 0% 0%;
+    font-size: 6rem;
+    font-family: "Charm", serif;
+    letter-spacing: 1rem;
+    font-weight: 700;
+    color: var(--font-color);
+}
+
+.header__menu {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    background-color: var(--background-color);
+    border: 0.2rem solid var(--background-color); 
+}
+
+.header__menu__link {
+    padding: 1% 0 1% 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration-line: none;
+    color: var(--font-color);     
+}
+
+.header__menu__link:hover {
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title {
+    display: flex;
+    color: var(--font-color);
+    justify-content: center;
+    font-size: 2.3rem;
+    margin-top: 8%;
+
+}
+
+.main__text {
+    margin: 6% 8% 6% 8%;
+    font-size: var(--font-size);
+    line-height: 3rem;
+    text-indent: 6rem;
+    text-align: justify;
+}
+
+
+.box {
+    box-sizing: border-box;
+    width: 70rem;
+    align-self: center;
+    margin-top: 5%;
+}
+
+.main__teacher {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+    .main__teacher__boss{
+        display: flex;
+        flex-direction: column;
+    }
+    .main__teacher__boss__title {
+        text-align: center;
+        color: var(--font-color);
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+    .main__teacher__boss__photo {
+        align-self: center;
+        width: 11rem;
+    }
+
+
+.main__teacher2 {
+    display: flex;
+    margin-top: 5%;
+    padding: 2%;
+    justify-content: space-evenly;
+}    
+
+
+    .main__teacher__others{
+        display: flex;
+        flex-direction: column;
+    }
+    .main__teacher__others__title {
+        text-align: center;
+        color: var(--font-color);
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+    .main__teacher__others__photo {
+        width: 10rem; /* Ajuste o tamanho conforme necessário */
+        align-self: center; /* Alinha a foto no centro */
+        display: block; /* Garante que a imagem seja tratada como um bloco */
+        margin: 0% auto 20% auto; /* Centraliza a imagem horizontalmente */
+    }
+
+
+.main__teacher__group{
+    display: flex;
+    flex-direction: column;
+}
+
+    .main__teacher__group__title {
+        text-align: center;
+        color: var(--font-color);
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .main__teacher__group__photo {
+        align-self: center;
+        width: 50rem;
+        margin-bottom: 6rem;
+        border: 0.4rem solid var(--background-color);
+    }
+
+    .divisionLine {
+        background-color: var(--background-color);
+        border: none;
+        height: 0.2rem;
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+.footer {
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   padding: 1% 6% 1% 6%;
+}
+
+.footer__main__title {
+    font-size: 1rem;
+    color: var(--font-color);
+    }
+    
+.footer__main__image {
+     width: 2rem; 
+     padding-top: 4%;       
+}
+
+.footer__main__mail {
+    padding-top: 10%;
+}
+
+.footer__main__logo {
+    width: 4rem;
+    padding: 1% 0 2% 0;
+}

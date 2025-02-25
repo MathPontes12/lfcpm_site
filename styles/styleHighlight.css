@@ -1,0 +1,50 @@
+@import url('styleAbout.css');
+
+.highlight {
+    display: flex;
+    margin: 5% 8%;
+    border: 0.312rem solid var(--background-color);
+    border-radius: 0.625rem;
+    transition: width 0.5s;
+    width: 23rem;
+    height: 17rem;
+    
+}
+
+.highlight:hover {
+    width: 80rem;
+}
+
+.highlight__imageOne {
+   width: 23rem;
+}
+
+.highlight__div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--font-color);
+    min-width: 55rem;
+    margin: 0.8% 0%;
+    gap: 4rem;
+    visibility: hidden;
+    transition: visibility 0.1s
+}
+
+.highlight:hover .highlight__div {
+    visibility: visible;
+}
+
+.highlight__div__title {
+    font-size: 2rem;
+}
+
+.highlight__div__text {
+    font-size: 1.2rem;
+}
+
+.highlight__div__link {
+    font-size: 1.2rem;
+    text-align: end;
+    color: var(--font-color);
+}
